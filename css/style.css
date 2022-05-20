@@ -1,0 +1,121 @@
+body{
+    font-family: 'Fredoka', sans-serif;
+    background: #fff;
+}
+
+.contenedor{
+    background: #f6f9fe;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.barra-de-navegacion{
+    padding-top: 50px;
+}
+
+header .nav{
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+
+header .nav .nav-item{
+    list-style: none;
+}
+
+header .nav .nav-item .nav-link{
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    margin-right: 2px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+header .nav .nav-item .nav-link:hover{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+}
+
+header .nav .nav-item .btn{
+    background: #372865;
+    color: #fff;
+    font-weight: 400;
+}
+
+header .nav .nav-item .btn:hover{
+    background: #41375f;
+} 
+
+/* MAIN */
+section {
+    margin-top: 100px;
+}
+
+section .banner{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #372865;
+    border-radius: 30px;
+    color: #ccc1e6;
+    padding: 6px 30px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+section .banner a{
+    font-weight: 500;
+    color: #ccc1e6;
+    text-decoration: underline;
+}
+
+section .main{
+    margin-bottom: 16px;
+}
+
+section .main h1{
+    color: #353252;
+    margin-top: 20px;
+    line-height: 55px;
+    font-size: 48px;
+}
+
+section .main p{
+    color: #545454;
+    font-weight: 300;
+    text-align: justify;
+}
+
+section .main form{
+    display: flex;
+    align-items: center;
+}
+
+section .main form input[type="text"]{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+section .main form .btn{
+    background: #372865;
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+}
+
+section .imagen img{
+    width: 300px;
+}
+
+footer{
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+footer .texto{
+    color: #545454;
+}
